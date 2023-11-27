@@ -1,0 +1,229 @@
+*{
+        margin: 10;
+        padding: 10; 
+ } 
+
+body{
+        background: #e5e5e5;
+        padding: 1px;
+    }
+
+h1{
+        text-align: center;
+        color: #000;
+        padding: 30px;
+        font-family: impac;
+        
+  }
+
+  h2{
+        text-align: center;
+        color: #000;
+        padding: 30px;
+        font-family: impac;
+        
+  }
+  h3{
+        text-align: center;
+        color: #000;
+        padding: 30px;
+        font-family: impac;
+        
+  }
+  h4{
+        text-align: center;
+        color: #000;
+        padding: 30px;
+        font-family: impac;
+        
+  }
+  h5{
+        text-align: center;
+        color: #000;
+        padding: 30px;
+        font-family: impac;
+        
+  }
+  h6{
+        text-align: center;
+        color: #000;
+        padding: 30px;
+        font-family: impac;
+        
+  }
+header{
+        max-width: 1000px;
+        min-height: 140px;
+        margin: 0 auto;
+        border-radius: 0px 0px 0px 0px;
+        background-image: url("../Img/fondo1.png");
+        background-size: cover;
+        background-position: center;
+      }
+
+#logo{
+        width: 320px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 300px;
+     }
+
+#menu-horizontal{
+        max-width: 1000px;
+        min-height: 30px;
+        background: #000;
+        margin: 0 auto;
+        
+       }
+
+#menu-horizontal ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+          }
+
+#menu-horizontal a{
+        color: #000;
+        display: block;
+        border: 14px solid #000;
+        padding: 9px;
+        text-decoration: none;
+        background: #fff;
+        font-family: Bahnschrift;
+        font-size: 20px;
+        
+         }
+
+#menu-horizontal a:hover{
+        background: #ccc;
+               }
+
+#menu-horizontal ul ul{
+        display: none;
+        position: absolute;
+             }
+
+#menu-horizontal ul li:hover ul{
+        display: block;
+                      }
+
+#cont-general{
+        max-width: 1000px; 
+        min-height: 3300px;  
+        background: #ccc;
+        margin: 0 auto;
+           }
+
+#menu-vertical{
+        width: 300px;
+        min-height: 700px;
+        background: #ccc;
+        float: left;
+        position: fixed;
+        padding-bottom: 100px;
+        
+       }
+#menu-vertical ul{
+        list-style: none;
+        padding: 10px;
+          }
+
+#menu-vertical a{
+        display: block;
+        color: #000;
+        background: #ccc;
+        padding: 20px;
+        text-decoration: none;
+        border: 10px solid #000;
+        font-family: Bahnschrift;
+         }
+
+#menu-vertical a:hover{
+        background: #fff;
+               }
+
+#menu-vertical a:hover img{
+        animation: 1s rotation 1;    
+                   }
+
+#texto{
+        max-width: 650px;
+        color: #000;
+        margin: 10px auto;
+        margin-right: 30px;
+        float: right;
+        font-family: Bookman Old Style;
+        font-size: 17px;
+        text-align: justify;
+    
+          }
+#video{
+        width: 320px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+}
+
+#inicio{
+        width: 320px;
+        float: center;
+        margin-top: 20px;
+        margin-left: 160px;  
+    
+}
+
+#ipad{
+        width: 320px;
+        float: center;
+        margin-top: 20px;
+        margin-left: 160px;
+}
+
+#iphone{
+        width: 500px;
+        float: center;
+        margin-top: 20px;
+        margin-left: 150px;
+}
+
+#mac{
+        width: 500px;
+        float: center;
+        margin-top: 20px;
+        margin-left: 150px;
+}
+
+#watch{
+        width: 500px;
+        float: center;
+        margin-top: 20px;
+        margin-left: 150px;
+}
+
+#store{
+        width: 500px;
+        float: center;
+        margin-top: 20px;
+        margin-left: 150px;
+}
+
+footer{
+        max-width: 1000px;
+        background: #000;
+        color: #fff;
+        margin: 0 auto;
+        border-radius: 0px 0px 0px 0px;
+        text-align: right;
+        padding: 30px;
+        box-sizing: border-box;   
+        font-family: arial;
+        font-size: 16px;
+      }
+
+
+@keyframes rotation{
+    0%{
+        transform: rotate(270deg);
+      }
+                   }
